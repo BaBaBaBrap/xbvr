@@ -1,10 +1,12 @@
 module github.com/xbapps/xbvr
 
-go 1.22
+go 1.23
+
+toolchain go1.23.5
 
 require (
 	github.com/ProtonMail/go-appdir v1.1.0
-	github.com/PuerkitoBio/goquery v1.9.2
+	github.com/PuerkitoBio/goquery v1.10.1
 	github.com/abbot/go-http-auth v0.4.0
 	github.com/anacrolix/ffprobe v1.1.0
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
@@ -72,7 +74,7 @@ require (
 
 require (
 	github.com/RoaringBitmap/roaring v1.9.3 // indirect
-	github.com/andybalholm/cascadia v1.3.2 // indirect
+	github.com/andybalholm/cascadia v1.3.3 // indirect
 	github.com/antchfx/htmlquery v1.2.3 // indirect
 	github.com/antchfx/xmlquery v1.3.1 // indirect
 	github.com/antchfx/xpath v1.1.10 // indirect
